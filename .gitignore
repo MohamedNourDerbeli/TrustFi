@@ -79,4 +79,3 @@ smart_contract/.openzeppelin/
 smart_contract/.secret
 smart_contract/keys/
 smart_contract/*.pem
-ReputationNFT.txt
