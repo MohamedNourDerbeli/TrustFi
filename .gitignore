@@ -1,0 +1,82 @@
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+.idea/
+.vscode/
+.history/
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Environment files (keep examples) ---
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+smart_contract/.env
+smart_contract/.env.*
+!smart_contract/.env.example
+
+# --- Node / Package managers ---
+node_modules/
+client/node_modules/
+smart_contract/node_modules/
+.pnp.*
+.pnpm-store/
+
+# --- TypeScript / Tooling ---
+*.tsbuildinfo
+.eslintcache
+.nyc_output/
+
+# --- React (Client) ---
+client/build/
+client/dist/
+client/.cache/
+client/.parcel-cache/
+client/.vite/
+client/.next/
+client/out/
+client/.vercel/
+client/coverage/
+
+# --- Solidity (Hardhat/Foundry/Truffle) ---
+# Hardhat
+smart_contract/artifacts/
+smart_contract/cache/
+smart_contract/coverage/
+smart_contract/coverage.json
+smart_contract/typechain/
+smart_contract/typechain-types/
+smart_contract/ignition/deployments/
+smart_contract/ignition/logs/
+smart_contract/deployments/
+
+# Foundry
+smart_contract/out/
+smart_contract/broadcast/
+smart_contract/lib/
+smart_contract/.foundry-cache/
+
+# Truffle
+smart_contract/build/
+smart_contract/build/contracts/
+
+# OpenZeppelin (-upgrades) project files
+smart_contract/.openzeppelin/
+
+# Keys / secrets
+smart_contract/.secret
+smart_contract/keys/
+smart_contract/*.pem
+ReputationNFT.txt

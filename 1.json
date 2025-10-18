@@ -1,0 +1,15 @@
+{
+  "name": "TrustFi Credential - Tier 1",
+  "description": "This credential certifies that the holder has successfully completed a verified task on a TrustFi-integrated platform, demonstrating reliability and skill.",
+  "image": "https://scarlet-gentle-chimpanzee-964.mypinata.cloud/ipfs/bafybeibij4dtlul3xoi2yuqzr4ul3sm4gzkvi2pjeds3opfs3eoa2etqpe",
+  "attributes": [
+    {
+      "trait_type": "Level",
+      "value": "1"
+    },
+    {
+      "trait_type": "Achievement",
+      "value": "Good Work"
+    }
+  ]
+}
