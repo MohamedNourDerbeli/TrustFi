@@ -13,6 +13,7 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
@@ -23,23 +24,26 @@ lerna-debug.log*
 client/.env
 client/.env.*
 !client/.env.example
+client/decentralized_gigs/.env
+client/decentralized_gigs/.env.*
+!client/decentralized_gigs/.env.example
 smart_contract/.env
 smart_contract/.env.*
 !smart_contract/.env.example
 
 # --- Node / Package managers ---
 node_modules/
-client/node_modules/
-smart_contract/node_modules/
 .pnp.*
 .pnpm-store/
+client/decentralized_gigs/node_modules/
+smart_contract/node_modules/
 
-# --- TypeScript / Tooling ---
+# --- Tooling caches ---
 *.tsbuildinfo
 .eslintcache
 .nyc_output/
 
-# --- React (Client) ---
+# --- React/Vite (Client) ---
 client/build/
 client/dist/
 client/.cache/
@@ -49,6 +53,12 @@ client/.next/
 client/out/
 client/.vercel/
 client/coverage/
+client/decentralized_gigs/dist/
+client/decentralized_gigs/.vite/
+client/decentralized_gigs/.parcel-cache/
+client/decentralized_gigs/.cache/
+client/decentralized_gigs/.vercel/
+client/decentralized_gigs/coverage/
 
 # --- Solidity (Hardhat/Foundry/Truffle) ---
 # Hardhat
@@ -79,3 +89,6 @@ smart_contract/.openzeppelin/
 smart_contract/.secret
 smart_contract/keys/
 smart_contract/*.pem
+
+# Misc contract logs accidentally dropped in source
+smart_contract/contracts/*.txt

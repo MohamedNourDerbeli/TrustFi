@@ -79,7 +79,7 @@ function App() {
       const signer = await provider.getSigner();
       const contract = new ethers.Contract(contractAddress, contractABI, signer);
 
-      const achievementId = ethers.encodeBytes32String("job-logo-design-006");
+      const achievementId = ethers.encodeBytes32String("job-logo-design-007");
       const tokenURI = "https://scarlet-gentle-chimpanzee-964.mypinata.cloud/ipfs/bafkreihqpcmmbygmdbjp34ply7oi4xyjfxwhiqyvmptzydf7loqhoc54ni";
 
       setMessage("Please approve the transaction in your wallet...");
